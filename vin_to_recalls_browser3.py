@@ -6,8 +6,8 @@ import requests
 import json
 import webbrowser
 
-# vin = input("Enter vehicle(s) VIN separated by semicolons: ")
-vin = input('Enter vehicle VIN: ')
+vin = input("Enter vehicle(s) VIN separated by semicolons: ")
+# vin = input('Enter vehicle VIN: ')
 url = 'https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVINValuesBatch/'
 post_fields = {'format': 'json', 'data':vin}
 results = requests.post(url, data=post_fields)
