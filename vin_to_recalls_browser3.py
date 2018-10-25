@@ -15,6 +15,7 @@ raw_data = results.text
 json_data = json.loads(raw_data)
 json_str = json.dumps(json_data)
 resp = json.loads(json_str)
+
 for key in resp:
     num_vehicles = resp['Count']
     year = resp['Results'][0]['ModelYear']
@@ -38,6 +39,7 @@ recall_url_data = (requests.get(url)).text
 json_data = json.loads(recall_url_data)
 json_str = json.dumps(json_data)
 resp = json.loads(json_str)
+
 for key in resp:
     count_recalls = resp['Count']
 print('Number of Recalls Found:', count_recalls)
