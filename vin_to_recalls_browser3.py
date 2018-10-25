@@ -21,12 +21,16 @@ for key in resp:
     make = resp['Results'][0]['Make']
     model = resp['Results'][0]['Model']
 
+print('')
 print('-----')
-# print('Number of Vehicles Returned:', num_vehicles)
+print('')
+print('Number of Vehicles Returned:', num_vehicles)
 print('Year:', year)
 print('Make:', make)
 print('Model:', model)
+print('')
 print('-----')
+print('')
 
 
 url = "https://one.nhtsa.gov/webapi//api/Recalls/vehicle/modelyear/" + year + "/make/" + make + "/model/" + model + "?format=json"
@@ -37,18 +41,24 @@ resp = json.loads(json_str)
 for key in resp:
     count_recalls = resp['Count']
 print('Number of Recalls Found:', count_recalls)
+print('')
 print('-----')
 print('')
 
 while True:
-    open_url = input('Open Browser to View Recalls? (Yes/No): ')
+    open_url = input('View Recalls in Browser? (Yes/No): ')
     if open_url == 'Yes' or open_url == 'yes':
         webbrowser.open(url)
+        print('')
         print('Recalls Successfully Loaded in Browser')
+        print('')
         break
     if open_url == 'No' or open_url == 'no':
+        print('')
         print('Browser Not Loaded')
+        print('')
         break
     else:
+        print('')
         print('Please type "Yes" or "No"')
         print('')
