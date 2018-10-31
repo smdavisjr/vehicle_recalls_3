@@ -2,7 +2,7 @@
 
 while True:
 	try:
-		year_int = int(raw_input("Enter vehincle year: "))
+		year_int = int(raw_input("Enter vehicle year: "))
 	except ValueError:
 		print("Please enter a number for the vehicle year.")
 		continue

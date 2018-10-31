@@ -1,0 +1,33 @@
+{
+  "Count": 2,
+  "Message": "Results returned successfully",
+  "Results": [
+    {
+      "Component": "AIR BAGS: OCCUPANT CLASSIFICATION SYSTEM - OCS (FRONT PASSENGER)",
+      "Conequence": "If the passenger frontal air bag does not deploy as intended in the event of a crash, the passenger is at an increased risk of injury.",
+      "Make": "INFINITI",
+      "Manufacturer": "Nissan North America, Inc.",
+      "Model": "Q50",
+      "ModelYear": "2015",
+      "NHTSAActionNumber": "EA15004",
+      "NHTSACampaignNumber": "16V244000",
+      "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.safercar.gov.",
+      "Remedy": "Nissan will notify their owners.  Chevrolet City Express owners will be notified by General Motors.  Dealers will reprogram the Air Bag Control Unit (ACU) and OCS Electronic Control Unit (ECU) in Altima, Maxima, Murano, Rogue, and Sentra vehicles, and replace the OCS ECU in LEAF, NV200, NV200 Taxi, Pathfinder, Infiniti Q50, JX35, and QX60 and Chevrolet City Express vehicles, free of charge.  Interim notices were sent to owners on May 31, 2016.  Owners will receive a second notice when remedy parts become available.  Owners may contact Nissan customer service at 1-800-867-7669, Infiniti customer service at 1-888-833-3216 or Chevrolet customer service at 1-800-222-1020. ",
+      "ReportReceivedDate": "/Date(1461643200000-0400)/",
+      "Summary": "Nissan North America, Inc. (Nissan) is recalling certain model year 2016-2017 Nissan Maxima, 2013-2016 Nissan Altima, NV200, LEAF, Sentra, and Pathfinder, 2014-2016 Nissan NV200 Taxi, Infiniti QX60, QX60 Hybrid, and Q50 Hybrid, 2014-2017 Nissan Rogue and Infiniti Q50, 2015-2016 Nissan Murano, Murano Hybrid, and Chevrolet City Express, 2014-2015 Nissan Pathfinder Hybrid, and 2013 Infiniti JX35 vehicles.  In these vehicles, the front seat passenger Occupant Classification System (OCS) may incorrectly classify an adult passenger as a child or classify the seat as empty despite it being occupied.  As a result, the passenger frontal air bag may be turned off and not deploy in the event of a crash."
+    },
+    {
+      "Component": "STEERING: ADAPTIVE STEERING | STEERING:ELECTRIC POWER ASSIST SYSTEM",
+      "Conequence": "If the vehicle does not steer as the driver anticipates, there is an increased the risk of a crash.",
+      "Make": "INFINITI",
+      "Manufacturer": "Nissan North America, Inc.",
+      "Model": "Q50",
+      "ModelYear": "2015",
+      "NHTSACampaignNumber": "16V430000",
+      "Notes": "Owners may also contact the National Highway Traffic Safety Administration Vehicle Safety Hotline at 1-888-327-4236 (TTY 1-800-424-9153), or go to www.safercar.gov.",
+      "Remedy": "Nissan will notify owners, and dealers will reprogram the Direct Adaptive Steering ECU software, free of charge.  The recall began on August 12, 2016.  Owners may contact Nissan customer service at 1-800-647-7261.",
+      "ReportReceivedDate": "/Date(1465790400000-0400)/",
+      "Summary": "Nissan North America, Inc.'s (Nissan) is recalling certain model year 2014-2016 Infiniti Q50 vehicles manufactured December 26, 2012, to December 11, 2015, and Infiniti Q50 Hybrid vehicles manufactured December 10, 2012, to December 17, 2015.  The Direct Adaptive Steering system may experience an error at vehicle start up altering the vehicle's steering responsiveness and turning radius."
+    }
+  ]
+}

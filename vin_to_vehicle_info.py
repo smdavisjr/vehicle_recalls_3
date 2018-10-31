@@ -2,33 +2,20 @@
 # 2015 Lincoln MKZ 3LN6L2G99FR621162
 
 import requests
-import json
+# import json
 # import re
 # import csv
 
 vin = input("Enter vehicle(s) VIN separated by semicolons: ")
+# vin = str(vin)
 url = 'https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVINValuesBatch/'
-post_fields = {'format': 'json', 'data':vin}
-# post_fields = {'format': 'xml', 'data':vin}
+post_fields = {'format':json, 'data':vin}
 results = requests.post(url, data=post_fields)
-raw_data = results.text
-# print(raw_data)
-
-# json_load = json.load(raw_data)
-# json_str = json.dumps(raw_data, sort_keys=True, indent=2)
-json_str = json.dumps(raw_data, separators=(',', ':'))
-print(json_str)
-
-
-
-# class raw_data(object):
-#     with raw_data() as raw:
-#         data = json.load(raw)
-# json_str = json.dumps(data)
-# print(json_str)
+raw_data = rsults.json
+print(raw_data)
 
 # print(re.sub('([":"])', r' \1', raw_data))
-
+#
 # split = results.split(':')
 # print(split)
 
@@ -53,3 +40,5 @@ print(json_str)
     # test1 = str(resp[key]['Results']['AirBagLocCurtain'])
     # test1 = [0][0]
 # print(test1)
+
+# stringify
